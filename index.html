@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <!-- <h1 class="text-red-500">Welcome to evening class!</h1> -->
+    <!-- Five Breakpoint -->
+     <!-- <div class="container grid gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xxl:grid-cols-4 box-content">
+        <div class="animate:none hover:animate-bounce"> 
+            <img src="https://i.pinimg.com/736x/b9/b0/21/b9b021abaa8cfa30b50632d853c3231f.jpg" alt="Cafe Anime">
+        </div>
+        <div class="box"> 
+            <img src="https://i.pinimg.com/736x/bb/05/39/bb053914e10ad64cec66bbfc882ebd81.jpg" alt="">
+        </div>
+        <div class="box"> 
+            <img src="https://i.pinimg.com/736x/12/85/38/128538fb5f60b5494c4634d828051992.jpg" alt="">
+        </div>
+        <div class="box"> 
+            <img src="https://i.pinimg.com/736x/1e/50/ba/1e50ba3a8dfce528cde60d83bdd8990e.jpg" alt="">
+        </div>
+        <div class="box"> 
+            <img src="https://i.pinimg.com/1200x/a3/36/40/a33640f4c6af7bf742d5dd9740b0289c.jpg" alt="">
+        </div>
+        <div class="box"> 
+            <img src="https://i.pinimg.com/736x/59/30/f4/5930f49db81d27e14f4d114c4044aa82.jpg" alt="">
+        </div>
+        <div class="box"> 
+            <img src="https://i.pinimg.com/736x/ee/ad/dd/eeaddd863c10cb25fcb19576ad42b6bb.jpg" alt="">
+        </div>
+        <div class="box"> 
+            <img src="hhttps://i.pinimg.com/736x/56/8f/6c/568f6c61597d8ce228cd3dff0b7d9ad0.jpg" alt="">
+        </div>
+     </div> -->
+    <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+ 
+<!-- Hero Section -->
+<div class="bg-gray-900 ">
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
+      <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only"></span>
+          <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200">
+          <span class="sr-only">Open main menu</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12">
+        <!-- dropdown menu -->
+         <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
+<div class="relative">
+  <button popovertarget="desktop-menu-solutions" class="inline-flex items-center gap-x-1 text-sm/6 font-semibold text-white">
+    <span>Product</span>
+    <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5">
+      <path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
+    </svg>
+  </button> 
+
+  <el-popover id="desktop-menu-solutions" anchor="bottom" popover class="w-screen max-w-max overflow-visible bg-transparent px-4 transition transition-discrete [--anchor-gap:--spacing(5)] backdrop:bg-transparent open:flex data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200
+   data-enter:ease-out data-leave:duration-150 data-leave:ease-in mt-14 ml-[450px]">
+    <div class="w-[720px] flex-auto overflow-hidden rounded-3xl bg-gray-800 text-sm/6 outline-1 -outline-offset-1 outline-white/10">
+      <div class="p-4 gird grid-cols-2">
+        <!-- <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-white/5"> -->
+          <!-- <div class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-700/50 group-hover:bg-gray-700">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-gray-400 group-hover:text-white">
+              <path d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div> -->
+          <div>
+            <a href="#" class="font-semibold text-white">
+              Women shirt
+              <span class="absolute inset-0"></span>
+            </a>
+            <p class="mt-1 text-gray-400">Dress freely and comfortably</p>
+          </div>
+              <img src="https://i.pinimg.com/1200x/3f/61/2a/3f612ad638d5428f75b738c1aeeb3b08.jpg" alt="woman shirt" class="w-[250px] h-[25opx]">
+          
+          <!-- <div>
+                <img src="https://i.pinimg.com/1200x/5e/4a/89/5e4a89d7f614d1e804de7ed9682b2dc1.jpg" alt="women shirt">
+            </div> -->
+        <!-- </div> -->
+        <!-- <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-white/5"> -->
+          <!-- <div class="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-gray-700/50 group-hover:bg-gray-700">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 text-gray-400 group-hover:text-white">
+              <path d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div> -->
+          
+          <!-- <div>
+            <img src="https://i.pinimg.com/1200x/b8/12/b2/b812b2740e40a0a3e1d7509ffc366d52.jpg" alt="man shirt">
+          </div> -->
+        <!-- </div> -->
+         <div>
+            <a href="#" class="font-semibold text-white">
+              Men Shirt
+              <span class="absolute inset-0"></span>
+            </a>
+            <p class="mt-1 text-gray-400">Dress your confidence</p>
+          </div>
+         
+            <img src="https://i.pinimg.com/736x/72/9a/09/729a09f3c448056788548e35f528973d.jpg" alt="man shirt" class="w-[250px] h-[25opx]">
+      </div>
+      
+    </div>
+  </el-popover>
+</div>
+        <a href="#" class="text-sm/6 font-semibold text-white">About</a>
+        <a href="#" class="text-sm/6 font-semibold text-white">Contact</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="#" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </nav>
+    <el-dialog>
+      <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
+        <div tabindex="0" class="fixed inset-0 focus:outline-none">
+          <el-dialog-panel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-100/10">
+            <div class="flex items-center justify-between">
+              <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">Your Company</span>
+                <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
+              </a>
+              <button type="button" command="close" commandfor="mobile-menu" class="-m-2.5 rounded-md p-2.5 text-gray-200">
+                <span class="sr-only">Close menu</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
+                  <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-6 flow-root">
+              <div class="-my-6 divide-y divide-white/10">
+                <div class="space-y-2 py-6">
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">About</a>
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Contact</a>
+                </div>
+                <div class="py-6">
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">Log in</a>
+                </div>
+              </div>
+            </div>
+          </el-dialog-panel>
+        </div>
+      </dialog>
+    </el-dialog>
+  </header>
+
+  <div class="relative isolate px-1 pt-1 lg:px-2">
+    <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+    </div>
+    <div class="mx-auto max-w-2xl sm:py-48 lg:py-56 py-30">
+      <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
+          Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-400"><span aria-hidden="true" class="absolute inset-0"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+      <div class="text-center px-1 pt-1 lg:px-2">
+        <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl pt-2">Data to enrich your online business</h1>
+        <p class="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Get started</a>
+          <a href="#" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+    <!-- <div aria-hidden="true" class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+      <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-288.75"></div>
+    </div> -->
+    <!-- 2nd -->
+    
+  </div>
+</div>
+<!-- testimonial -->
+<section class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+  <div class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,var(--color-indigo-500),transparent)] opacity-10"></div>
+  <div class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-gray-900 shadow-xl ring-1 shadow-indigo-500/5 ring-white/5 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"></div>
+  <div class="mx-auto max-w-2xl lg:max-w-4xl">
+    <figure class="mt-10">
+      <blockquote class="text-center text-xl/8 font-semibold text-white sm:text-2xl/9">
+        <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
+      </blockquote>
+      <figcaption class="mt-10 ">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="mx-auto size-10 rounded-full " />
+        <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+          <div class="font-semibold text-white">Judith Black</div>
+          <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-white">
+            <circle r="1" cx="1" cy="1" />
+          </svg>
+          <div class="text-gray-400">CEO of Workcation</div>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,var(--color-indigo-500),transparent)] opacity-10"></div>
+  <div class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-gray-900 shadow-xl ring-1 shadow-indigo-500/5 ring-white/5 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"></div>
+  <div class="mx-auto max-w-2xl lg:max-w-4xl">
+    <figure class="mt-10">
+      <blockquote class="text-center text-xl/8 font-semibold text-white sm:text-2xl/9">
+        <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
+      </blockquote>
+      <figcaption class="mt-10">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="mx-auto size-10 rounded-full" />
+        <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+          <div class="font-semibold text-white">Judith Black</div>
+          <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-white">
+            <circle r="1" cx="1" cy="1" />
+          </svg>
+          <div class="text-gray-400">CEO of Workcation</div>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+<!-- Footer -->
+<div class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-800/50 px-6 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1">
+  <div aria-hidden="true" class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
+    <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)" class="aspect-577/310 w-144.25 bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-40"></div>
+  </div>
+  <div aria-hidden="true" class="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
+    <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)" class="aspect-577/310 w-144.25 bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-40"></div>
+  </div>
+  <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+    <p class="text-sm/6 text-gray-100">
+      <strong class="font-semibold">GeneriCon 2023</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>Join us in Denver from June 7 – 9 to see what’s coming next.
+    </p>
+    <a href="#" class="flex-none rounded-full bg-white/10 px-3.5 py-1 text-sm font-semibold text-white shadow-xs inset-ring-white/20 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Register now <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="flex flex-1 justify-end">
+    <button type="button" class="-m-3 p-3 focus-visible:-outline-offset-4">
+      <span class="sr-only">Dismiss</span>
+      <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5 text-gray-100">
+        <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+      </svg>
+    </button>
+  </div>
+</div>
+
+
+
+      
+</body>
+</html>
